@@ -1,0 +1,5 @@
+/*sankaku*/
+span.thumb, span.thumb img {
+    width:inherit;
+    height:inherit
+}
