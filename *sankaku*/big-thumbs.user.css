@@ -2,14 +2,14 @@
 /*! ==UserStyle==
  * @name        Biggest possible thumbnails in booru sites
  * @namespace   github.com/xentok/userstyles/
- * @version     1.0.0
+ * @version     1.1.0
  * @homepageURL https://github.com/dark-kuro/big-thumbs/edit/master/*sankaku*/big-thumbs.user.css
  * @license     MIT
  * @author       kuro
  * ==/UserStyle== */
 @-moz-document domain("sankakucomplex.com") {
 /*sankaku*/
-span.thumb, span.thumb img {
+span.thumb, span.thumb img, #post-list-posts>li{
     width:inherit;
     height:inherit
 }
