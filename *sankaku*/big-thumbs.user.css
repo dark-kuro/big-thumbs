@@ -1,0 +1,16 @@
+  
+/*! ==UserStyle==
+ * @name        Linux man page die.net dark theme
+ * @namespace   github.com/xentok/userstyles/
+ * @version     1.0.0
+ * @homepageURL https://github.com/
+ * @license     MIT
+ * @author       kuro
+ * ==/UserStyle== */
+@-moz-document domain("sankakucomplex.com") {
+/*sankaku*/
+span.thumb, span.thumb img {
+    width:inherit;
+    height:inherit
+}
+}
