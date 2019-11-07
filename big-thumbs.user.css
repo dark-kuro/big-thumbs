@@ -1,0 +1,15 @@
+/*! ==UserStyle==
+ * @name        Biggest possible thumbnails in booru sites
+ * @namespace   github.com/xentok/userstyles/
+ * @version     1.1.1
+ * @homepageURL https://github.com/dark-kuro/big-thumbs
+ * @license     MIT
+ * @author      dark-kuro
+ * ==/UserStyle== */
+@-moz-document domain("sankakucomplex.com"), domain("yande.re") {
+/*sankaku*/
+span.thumb, span.thumb img, #post-list-posts>li{
+    width:inherit;
+    height:inherit
+}
+}
