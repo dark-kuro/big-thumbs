@@ -1,5 +1,7 @@
+@-moz-document domain("sankakucomplex.com") {
 /*sankaku*/
 span.thumb, span.thumb img {
     width:inherit;
     height:inherit
+}
 }
