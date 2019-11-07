@@ -6,10 +6,17 @@
  * @license     MIT
  * @author      dark-kuro
  * ==/UserStyle== */
-@-moz-document domain("sankakucomplex.com"), domain("yande.re") {
-/*sankaku*/
-span.thumb, span.thumb img, #post-list-posts>li{
-    width:inherit;
-    height:inherit
-}
+@-moz-document domain("sankakucomplex.com"),
+domain("yande.re"),
+domain("konachan.com"),
+domain("konachan.net") {
+    /*sankaku*/
+    span.thumb,
+    span.thumb img,
+    #post-list-posts > li,
+    #post-list-posts > li div.inner,
+    #post-list-posts > li img {
+        width: inherit !important;
+        height: inherit !important
+    }
 }
